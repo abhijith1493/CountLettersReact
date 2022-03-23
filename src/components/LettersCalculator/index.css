@@ -1,0 +1,61 @@
+/* Write your code here. */
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    hsla(159, 68%, 35%, 1) 0%,
+    hsla(142, 89%, 78%, 1) 100%
+  );
+  color: white;
+}
+
+.innerWrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
+
+.inL {
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  width: 220px;
+  height: 60px;
+  margin-top: 20px;
+  padding: 1%;
+  border-radius: 5px;
+  background-color: white;
+  border: 0px;
+  font-weight: bold;
+  color: gray;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  background-color: transparent;
+  height: 30px;
+  border: 1px solid white;
+  margin-top: 5px;
+}
+.inlR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  object-fit: contain;
+  width: 60%;
+}
